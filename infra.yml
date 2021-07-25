@@ -297,3 +297,9 @@ Resources:
       Protocol: HTTP
       UnhealthyThresholdCount: 5
       VpcId: !Ref VPC
+Outputs:
+  LinkToLoadBalancer:
+    Description: Link to load balancer
+    Value: !Join [ "", [ "http://", !GetAtt WebAppLoadBalancer.DNSName ] ]
+    Export:
+      Name: !Sub "${EnvironmentName}-LB-DNS"
