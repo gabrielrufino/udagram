@@ -21,3 +21,7 @@ aws cloudformation update-stack \
   --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" \
   --region=us-west-2
 ```
+
+### Stack Link
+
+> http://udagr-WebAp-18G844DJ7PBGE-1421531839.us-west-2.elb.amazonaws.com
