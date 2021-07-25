@@ -1,5 +1,7 @@
 # Udagram - Cloud Formation
 
+**Create command**
+
 ```bash
 aws cloudformation create-stack \
   --stack-name udagram \
@@ -8,6 +10,8 @@ aws cloudformation create-stack \
   --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" \
   --region=us-west-2
 ```
+
+**Update command**
 
 ```bash
 aws cloudformation update-stack \
